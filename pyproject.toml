@@ -1,0 +1,29 @@
+[project]
+name = "ezname"
+version = "0.1.0"
+description = "A simple tool for generating random, memorable names - better than UUIDs"
+readme = "README.md"
+authors = [{ name = "ksterx", email = "kostonerx@gmail.com" }]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+ezname = "ezname.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+select = ["E", "F", "B", "I"]
+ignore = []
+line-length = 88
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+warn_return_any = true
+warn_unused_configs = true
+
+[dependency-groups]
+dev = ["mypy>=1.15.0", "pre-commit>=4.1.0", "pytest>=8.3.5", "ruff>=0.9.10"]
