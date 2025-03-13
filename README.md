@@ -45,6 +45,15 @@ $ ezname
 - Provides customizable naming options with prefixes, suffixes, and delimiters
 - Supports tuple output format for structured naming
 
+## Word Selection
+
+The vocabulary used in ezname is carefully curated to include words that are:
+
+- Easy to pronounce and recognize across different cultures
+- Simple enough to be understood by non-native English speakers
+
+We would like to acknowledge the vocabulary list from Dr. Shin Ishikawa, Kobe University, which helped inform our word selection process.
+
 ## License
 
 MIT License
